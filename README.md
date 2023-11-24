@@ -1,6 +1,6 @@
 # Cordova-introEcole
 
-<h2>Cordova Get Started Fast</h2>h
+<h2>Cordova Get Started Fast</h2>
 1. Installing Cordova<br/>
 <code> $npm install -g cordova </code>
 
