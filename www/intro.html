@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>에꼴캡스톤디자인</title>
+    <link rel="stylesheet" href="/UTTIL/jquery.mobile-1.4.5.min.css" />
+    <script src="/UTTIL/jquery-1.11.1.min.js"></script>
+    <script src="/UTTIL/jquery.mobile-1.4.5.min.js"></script>
+    <style></style>
+    <script>
+      $(document).on("pagecreate", "#intro", function () {
+        $("#intro").tabs();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div data-role="page" id="intro" data-theme="b">
+      <div data-role="header" data-theme="b">
+        <a href="index.html" data-icon="arrow-l" data-direction="reverse"
+          >처음</a
+        >
+        <h1>에꼴이란?</h1>
+      </div>
+      <div data-role="content">
+        <h2>01.교과목 기본 정보</h2>
+        <p>
+          <b>에꼴프로젝트 강의는 캡스톤디자인과정으로 개설 된 교과목입니다.</b>
+          <br /><br />
+          본 강의는 프랑스에서 운영중인 소프트웨어 개발 혁신강의로 평가받는
+          에꼴42(ecole42) 교육과정을 대학 교육과정에 접목하여 운영중인
+          캡스톤디자인 과목입니다. <br />
+          단일 교과목 12학점이 편성되어 있고 격주로 수업이 진행되며, 총 8회에
+          거쳐 과정이 진행됩니다.<br />
+          에꼴42(ecole 42)과정의 특징은 교수, 교재, 교육비가 없이 동료학습을
+          통해 매 주차 목표를 수행하여 최종 프로젝트를 진행하는 형태로 구성되어
+          있습니다.<br />
+          이러한 특징을 정규 교과에 반영하기 위해 에꼴캡스톤 과정은 격주 오후
+          2시에 첫 세션을 시작으로 저녁 세션, 최종 세션을 종료한 후 결과 발표를
+          진행하고 강의가 종료되는 무박 2일의 해커톤 형태로 진행되며, 각
+          섹션별로 휴식시간과 석식, 야식이 제공됩니다.<br />
+          각 회차 강의는 3가지 세션으로 나뉘어져 현업중심 강의, 특강, 실습
+          등으로 진행되며, 4분의 교수님께서 본 과목을 진행합니다.<br />
+          일반적인 교과과정의 내용을 바탕으로 실무 중심적인 테크닉을 풀어서
+          세션을 진행하고 현업에서 활동 중인 특강자를 모시고 현장의 이야기를
+          경험할 수 있는 특별한 과정이기도 합니다. <br />모든 참가학생은 세션에
+          따른 회차별 과제를 수행하고, 이를 바탕으로 최종 개인 프로젝트까지
+          진행하도록 프로그램을 구성하였습니다.<br />
+          캡스톤디자인 과정은 학생이 스스로 프로젝트를 구성하고 진행하는데
+          중점을 둔 교육 과정으로 학생 스스로 성장하는 수업이 될 수 있도록
+          진행됩니다.
+        </p>
+
+        <div class="horizontal-collapsibles">
+          <div
+            class="horizontal-collapsible"
+            data-role="collapsible"
+            data-collapsed="false"
+          >
+            <div data-role="tabs">
+              <div data-role="navbar">
+                <ul>
+                  <li><a href="#firstTab1">교과목 개요</a></li>
+                  <li><a href="#SecoundTab2">교과목 목표</a></li>
+                  <li><a href="#thirdTab3">세부 사항</a></li>
+                </ul>
+              </div>
+
+              <div id="firstTab1">
+                <ul>
+                  <li>교과목명: 에꼴프로젝트_캡스톤디자인</li>
+                  <li>
+                    대상(권장)학과 : 인공지능(LINC3.0), 소프트웨어학과,
+                    컴퓨터공학과, 정보통신학과 외 ICT웹 서비스 개발에 관심있는
+                    학생.
+                  </li>
+                  <li>대상(권장)학년 : 3, 4학년</li>
+                  <li>시수/학점 : 12시수 / 12학점</li>
+                  <li>수업유형 : 강의 / 토론 / 실습</li>
+                </ul>
+              </div>
+
+              <div id="SecoundTab2">
+                <ul>
+                  <li>ICT 서비스의 이해 및 서비스 구축</li>
+                  <li>Backend서비스의 이해 및 구축</li>
+                  <li>오픈소스의 이해 Web개발</li>
+                  <li>Deploy시스템의 이해 및 구축</li>
+                  <li>개인프로젝트</li>
+                </ul>
+              </div>
+
+              <div id="thirdTab3">
+                <ul>
+                  <li>평가방법</li>
+                  <ul>
+                    <li>각 회차별 과제 수행에 따른 평가</li>
+                    <li>최종 프로젝트 수행 및 발표</li>
+                  </ul>
+                  <li>과제</li>
+                  <ul>
+                    <li>회차 별 수행과제</li>
+                  </ul>
+                  <li>교재 및 참고문헌</li>
+                  <ul>
+                    <li>3P Lab 웹사이트</li>
+                    <li>Technote@Graysky사이트 외</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>02. 주차별 강의내용</h2>
+        <div style="text-align: center"></div>
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+          <div data-role="collapsible" data-collapsed="false">
+            <h3>1주차/ICT 인프라 구축</h3>
+            <ul>
+              <li>오리엔테이션</li>
+              <li>ICT 서비스의 이해</li>
+              <li>ICT 구축을 위한 인프라</li>
+              <li>Cloudpanel 구축실습</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>2주차/오픈소스 Web 기초</h3>
+            <ul>
+              <li>오픈소스의 개념</li>
+              <li>오픈소스를 활용한 Web개발</li>
+              <li>오픈소스 CMS의 개념</li>
+              <li>
+                WordPress를 활용한 포트폴리오 제작<br />
+                <a href="https://ecole.omin.kr">오정민 포트폴리오</a>
+                <a href="https://ecole.hysu.kr">박현수 포트폴리오2</a>
+              </li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>3주차/오픈소스 Web 활용</h3>
+            <ul>
+              <li>워드프레스 테마 및 플러그인</li>
+              <li>Headless CMS 개념</li>
+              <li>Headless CMS 활용(via React.js)</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>4주차/Backend 서비스 구축</h3>
+            <ul>
+              <li>Backend서비스의 이해</li>
+              <li>Backend서비스 구축(via Appwrite)</li>
+              <li>Backend서비스 활용(via React.js)</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>5주차/ ICT서비스 Deploy</h3>
+            <ul>
+              <li>ICT서비스 Deploy의 이해</li>
+              <li>Docker / Kubernetes의 이해</li>
+              <li>CI/CD의 이해</li>
+              <li>Deploy 서비스 구축(via coolify)</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>6주차/모바일 서비스 구축</h3>
+            <ul>
+              <li>Cordova를 활용한 모바일 서비스 구축</li>
+              <li>김주현 교수님</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>7주차/ICT시스템 개발 프로젝트</h3>
+            <ul>
+              <li>ICT시스템 개발 프로젝트</li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>8주차/프로젝트 결과 발표</h3>
+            <ul>
+              <li>프로젝트 결과 발표</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div data-role="footer" data-position="fixed" data-theme="b">
+        <h1>
+          (48434) 부산 남구 수영로 309 8호관 608호 TEL : 051-663-5140 FAX :
+          051-- 사업자등록번호 : 617-82-00347
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>
